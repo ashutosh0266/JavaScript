@@ -13,7 +13,7 @@ let account = "23acsck"
 
 let number = 55
 
-let stringNumber = String (number)
+//let stringNumber = String (number)
 
 // console.log(stringNumber);
 // console.log (typeof stringNumber);
@@ -27,5 +27,6 @@ let stringNumber = String (number)
 // console.log(2-2);
 // console.log(2**3);
 // console.log(5/2.5);
-// console.log(5%2);
 // console.log(2==5);
+// console.log(2%3);
+console.log("Ashu");
