@@ -1,3 +1,4 @@
+"use strict"
 let account = "23acsck"
 // console.log(typeof a);
 // let num = 23
