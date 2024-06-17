@@ -14,7 +14,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+// console.log(id === anotherId);
 
 const bigInt = 12345678901234567890n
 
@@ -37,4 +37,33 @@ const myFunction = function(){
 
 // To check the datatype type use typeof
 
-console.log(typeof bigInt );
+// console.log(typeof bigInt );
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+
+// ---------------------------------------------------------------------------//
+
+let myOrgName = "Mohit"
+let myOrgNameCopy = myOrgName
+myOrgNameCopy = "Ashu"
+
+console.log(myOrgNameCopy);
+console.log(myOrgName);
+
+
+
+let userOne = {
+    Name : "Ashu",
+    userEmail: "Ashu@gmail.com"
+}
+let UserTwo = userOne
+
+userOne.Name = "MOhit"
+
+console.log(UserTwo);
+console.log(userOne);
+
+
